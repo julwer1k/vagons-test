@@ -9,7 +9,7 @@ export const QuestionFilter: FC<Props> = ({ setQuestionText }) => {
 
   return (
     <nav className="panel">
-      <p className="panel-heading">Filters</p>
+      <p className="panel-heading">Filters 1</p>
 
       <p className="panel-tabs" data-cy="SexFilter"></p>
 
