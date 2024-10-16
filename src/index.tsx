@@ -1,9 +1,12 @@
-import { createRoot } from 'react-dom/client';
-
+import React from 'react';
+import ReactDOM from 'react-dom/client';
 import 'bulma/css/bulma.css';
 import '@fortawesome/fontawesome-free/css/all.css';
-import './index.scss';
+import App from './App';
 
-import { App } from './App';
-
-createRoot(document.getElementById('root') as HTMLDivElement).render(<App />);
+// eslint-disable-next-line @typescript-eslint/no-non-null-assertion
+ReactDOM.createRoot(document.getElementById('root')!).render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+);
